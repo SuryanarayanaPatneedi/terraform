@@ -40,7 +40,7 @@ resource "null_resource" "run-shell-scripting" {
     inline = [
       "cd /home/centos",
       "git clone https://github.com/SuryanarayanaPatneedi/Shell-scripting.git" ,
-      "cd shell-scripting/Roboshop" ,
+      "cd Shell-scripting/Roboshop" ,
       "sudo make ${element(var.COMPONENTS, count.index)}"
     ]
   }
