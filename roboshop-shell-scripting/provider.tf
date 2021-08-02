@@ -8,6 +8,6 @@ terraform {
     bucket            = "surya-terraform"
     key               = "roboshop/shell-scripting/terraform.tfstate"
     region            = "us-east-1"
-    dynamodb_table    = "terraform"
+    dynamodb_table    = "suryanarayana"
   }
 }
