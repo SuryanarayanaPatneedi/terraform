@@ -8,6 +8,6 @@ provider "aws" {
   #  bucket            = "surya-terraform1"
    # key               = "roboshop/shell-scripting/terraform.tfstate"
    # region            = "us-east-1"
-    dynamodb_table    = "suryanarayana"
+   # dynamodb_table    = "suryanarayana"
   #}
 #}
