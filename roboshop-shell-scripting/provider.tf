@@ -5,7 +5,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket            = "surya-terraform"
+    bucket            = "surya-terraform1"
     key               = "roboshop/shell-scripting/terraform.tfstate"
     region            = "us-east-1"
     dynamodb_table    = "suryanarayana"
